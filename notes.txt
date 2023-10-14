@@ -1,0 +1,50 @@
+redux  => state management tool  => complex
+
+terminology
+----------------
+
+store => manage all the states => global object 
+action  => CRUD operation
+reducer => what to add => function => current state and action type  => return state
+dispatch => state updated
+
+Types
+------
+
+1. redux
+2. redux-toolkit
+3. redux-persist
+
+
+Steps
+--------
+
+1. Define the store ✅
+2. Define the action  ✅
+3. Create a reducer ✅
+4. setup the store
+
+
+methods
+--------
+
+dispatch() => state has been updated => dispatches an action 
+getState() => return current state 
+subscribe() => reducer return the state
+
+
+
+redux  => enable the redux architecture (core library)
+react-redux => connect react components to redux store
+redux-toolkit => maintainable, organized
+
+
+Benefits of using redux
+----------------------------
+
+1. centralized state management =>complex
+2. get updated states
+3. debug  => redux devTool chrome extension
+4. performance
+
+
